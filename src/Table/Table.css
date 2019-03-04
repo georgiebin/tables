@@ -1,0 +1,17 @@
+.Table {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    border: 1px solid ivory;
+    box-shadow: 0 2px 3px grey;
+}
+
+.row {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    border: 1px solid ivory;
+    box-shadow: 0 2px 3px grey;
+    justify-content: space-between;
+}
