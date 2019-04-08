@@ -8,10 +8,10 @@
 }
 
 .row {
-    display: flex;
+    display: grid;
+    grid-template-columns: 120px 120px auto 240px;
     width: 80%;
     margin: auto;
     border: 1px solid ivory;
     box-shadow: 0 2px 3px grey;
-    justify-content: space-between;
 }
